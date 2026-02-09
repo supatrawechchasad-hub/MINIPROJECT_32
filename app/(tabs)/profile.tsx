@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 export default function ProfileScreen() {
   // 1. สร้างตัวแปร (State) เก็บข้อมูล
-  const [name, setName] = useState('น้องมายด์ นักอ่าน'); // ชื่อเริ่มต้น
+  const [name, setName] = useState('CHAInawza007'); // ชื่อเริ่มต้น
   const [image, setImage] = useState('https://via.placeholder.com/150'); // รูปเริ่มต้น
   const [isEditing, setIsEditing] = useState(false); // สถานะ: กำลังแก้ไขอยู่ไหม?
 
@@ -68,7 +68,7 @@ export default function ProfileScreen() {
           <Text style={styles.name}>{name}</Text>
         )}
 
-        <Text style={styles.email}>mind@webtoon.com</Text>
+        <Text style={styles.email}>supatra@webtoon.com</Text>
 
         {/* --- ปุ่มควบคุม --- */}
         <View style={styles.buttonSection}>
